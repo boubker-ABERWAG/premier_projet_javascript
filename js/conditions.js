@@ -15,6 +15,7 @@ switch (noteAvecSwitch) {
     default:
         console.log("Aucune des valeurs");
         break;
+}
 
 
 /*
@@ -30,21 +31,22 @@ switch (noteAvecSwitch) {
  *      break;
  */
 
-        /*
-         * && ET
-         * || OU
-         */
-
 
 let note = 21;
-if(note > 0 && note <= 5){
+if (note > 0 && note <= 5) {
     console.log("A l'année prochaine")
-}else if(note > 5 && note <= 10){
+} else if (note > 5 && note <= 10) {
     console.log("Presque");
-}else if(note > 10 && note <= 15){
+} else if (note > 10 && note <= 15) {
     console.log("Bien");
-}else if(note > 15 && note <= 20){
+} else if (note > 15 && note <= 20) {
     console.log("TBien");
-}else{
+} else {
     console.log("Impossible");
 }
+
+/*
+ * && ET
+ * || OU
+ */
+
